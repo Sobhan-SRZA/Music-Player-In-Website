@@ -59,7 +59,7 @@ This project is licensed under the [MIT License](https://github.com/Sobhan-SRZA/
 
 ## Screen Shots
 
-![Music Player In Website](https://github.com/Sobhan-SRZA/Music-Player-In-Website/assets/90289153/6650e942-8b19-4a0b-a104-f73703266f89)
+![Music Player In Website](https://github.com/Sobhan-SRZA/Music-Player-In-Website/assets/90289153/5ba88ac9-7868-470f-a173-a0e3fa5aa52b)
 
 ---
 
