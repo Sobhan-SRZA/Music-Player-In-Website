@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="og:site_name" content="DJ Boy" />
+    <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon">
+    <title>DJ Boy Player</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <p>DJ Boy Music Player</p>
+        </div>
+        <div class="player">
+            <div id="search-bar">
+                <input type="text" placeholder="play what?" id="search-table">
+                <i class="fas fa-search" id="search-button"></i>
+                <span id="warn"></span>
+                <div id="findes" class="searched"></div>
+            </div>
+            <div id="player" hidden>
+                <div class="music-container">
+                    <div class="music-info">
+                        <h4 id="title"></h4>
+                        <h4 id="artist"></h4>
+                        <div class="progress-container" id="progress-container">
+                            <div class="progress" id="progress"></div>
+                        </div>
+                    </div>
+
+                    <audio src="" id="audio"></audio>
+
+                    <div class="img-container">
+                        <img src="images/song.jpg" alt="music-cover" id="cover" />
+                    </div>
+                    <div class="navigation">
+                        <button id="prev" class="action-btn">
+                            <i class="fas fa-backward"></i>
+                        </button>
+                        <button id="play" class="action-btn action-btn-big">
+                            <i class="fas fa-play"></i>
+                        </button>
+                        <button id="next" class="action-btn">
+                            <i class="fas fa-forward"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="https://github.com/Sobhan-SRZA" target="_blank">© Build by Sobhan-SRZA</a>
+    </footer>
+    <script src="/script.js"></script>
+</body>
+
+</html>
+<!-- 
+ * @copyright
+ * Coded by Sobhan-SRZA (mr.sinre) | https://github.com/Sobhan-SRZA
+ * @copyright
+ * Work for Persian Caesar | https://dsc.gg/persian-caesar
+ * @copyright
+ * Please Mention Us "Persian Caesar", When Have Problem With Using This Code!
+ * @copyright 
+-->
