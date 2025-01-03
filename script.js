@@ -25,7 +25,7 @@ const songs = [{
 {
     name: "Maar",
     artist: "Mehrad Hidden",
-    source: "https://www.appahang5.com/cdn/tracks-mp3/1397/08/2467164776613658871647766136159716477661364280.mp3"
+    source: "https://dl.pmcmusic.tv/1397/08/Mehrad%20Hidden%20-%20Sefr%20[128]/04.%20Mehrad%20Hidden%20-%20Maar.mp3"
 }];
 let findes;
 
@@ -68,7 +68,7 @@ function play(isTyping = false, element = null) {
         songTitle.innerText = song.name;
         artist.innerText = song.artist;
         audio.src = `${song.source}`;
-        cover.src = `/images/${song.name}.jpg`;
+        cover.src = `images/${song.name}.jpg`;
     }
 
     // Play song
